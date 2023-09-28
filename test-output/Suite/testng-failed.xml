@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="EcommeraceFrameworks.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="submitOrder(failed)">
+    <classes>
+      <class name="EcommeraceFrameworks.Tests.SubmitOrderTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="orderhistoryTest" invocation-numbers="1"/>
+          <include name="sumbitOrder"/>
+        </methods>
+      </class> <!-- EcommeraceFrameworks.Tests.SubmitOrderTest -->
+    </classes>
+  </test> <!-- submitOrder(failed) -->
+  <test thread-count="5" name="errorValidation(failed)">
+    <classes>
+      <class name="EcommeraceFrameworks.Tests.ErrorValidationTest">
+        <methods>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="logINErrorValidation"/>
+        </methods>
+      </class> <!-- EcommeraceFrameworks.Tests.ErrorValidationTest -->
+    </classes>
+  </test> <!-- errorValidation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

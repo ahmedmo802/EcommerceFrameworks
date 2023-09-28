@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="1" ignored="1" total="8" passed="4" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-28T00:03:49 EEST" name="Suite" finished-at="2023-09-28T00:05:03 EEST" duration-ms="74636">
+    <groups>
+      <group name="ErrorHandls">
+        <method signature="ErrorValidationTest.logINErrorValidation()[pri:0, instance:EcommeraceFrameworks.Tests.ErrorValidationTest@77258e59]" name="logINErrorValidation" class="EcommeraceFrameworks.Tests.ErrorValidationTest"/>
+      </group> <!-- ErrorHandls -->
+      <group name="Purches">
+        <method signature="SubmitOrderTest.sumbitOrder(java.util.HashMap)[pri:0, instance:EcommeraceFrameworks.Tests.SubmitOrderTest@40db2a24]" name="sumbitOrder" class="EcommeraceFrameworks.Tests.SubmitOrderTest"/>
+      </group> <!-- Purches -->
+    </groups>
+    <test started-at="2023-09-28T00:03:49 EEST" name="submitOrder" finished-at="2023-09-28T00:04:43 EEST" duration-ms="54825">
+      <class name="EcommeraceFrameworks.Tests.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:EcommeraceFrameworks.Tests.SubmitOrderTest@40db2a24]" started-at="2023-09-28T00:03:49 EEST" name="launchApp" finished-at="2023-09-28T00:03:57 EEST" duration-ms="8074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="sumbitOrder(java.util.HashMap)[pri:0, instance:EcommeraceFrameworks.Tests.SubmitOrderTest@40db2a24]" started-at="2023-09-28T00:03:57 EEST" name="sumbitOrder" data-provider="getData" finished-at="2023-09-28T00:04:04 EEST" duration-ms="6750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=0126733141.Asd, email=am227450@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumbitOrder -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:EcommeraceFrameworks.Tests.SubmitOrderTest@40db2a24]" started-at="2023-09-28T00:04:04 EEST" name="closeApp" finished-at="2023-09-28T00:04:04 EEST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:EcommeraceFrameworks.Tests.SubmitOrderTest@40db2a24]" started-at="2023-09-28T00:04:04 EEST" name="launchApp" finished-at="2023-09-28T00:04:10 EEST" duration-ms="5720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="sumbitOrder(java.util.HashMap)[pri:0, instance:EcommeraceFrameworks.Tests.SubmitOrderTest@40db2a24]" started-at="2023-09-28T00:04:10 EEST" name="sumbitOrder" data-provider="getData" finished-at="2023-09-28T00:04:17 EEST" duration-ms="6618" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Ahmed.28, email=m.mido2008@yahoo.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumbitOrder -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:EcommeraceFrameworks.Tests.SubmitOrderTest@40db2a24]" started-at="2023-09-28T00:04:17 EEST" name="closeApp" finished-at="2023-09-28T00:04:17 EEST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:EcommeraceFrameworks.Tests.SubmitOrderTest@40db2a24]" started-at="2023-09-28T00:04:17 EEST" name="launchApp" finished-at="2023-09-28T00:04:24 EEST" duration-ms="6879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="orderhistoryTest(java.util.HashMap)[pri:0, instance:EcommeraceFrameworks.Tests.SubmitOrderTest@40db2a24]" started-at="2023-09-28T00:04:24 EEST" name="orderhistoryTest" data-provider="getData" finished-at="2023-09-28T00:04:25 EEST" depends-on-methods="EcommeraceFrameworks.Tests.SubmitOrderTest.sumbitOrder" duration-ms="1541" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=0126733141.Asd, email=am227450@gmail.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistoryTest -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:EcommeraceFrameworks.Tests.SubmitOrderTest@40db2a24]" started-at="2023-09-28T00:04:25 EEST" name="closeApp" finished-at="2023-09-28T00:04:26 EEST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:EcommeraceFrameworks.Tests.SubmitOrderTest@40db2a24]" started-at="2023-09-28T00:04:26 EEST" name="launchApp" finished-at="2023-09-28T00:04:33 EEST" duration-ms="7325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method retried="true" signature="orderhistoryTest(java.util.HashMap)[pri:0, instance:EcommeraceFrameworks.Tests.SubmitOrderTest@40db2a24]" started-at="2023-09-28T00:04:33 EEST" name="orderhistoryTest" data-provider="getData" finished-at="2023-09-28T00:04:35 EEST" depends-on-methods="EcommeraceFrameworks.Tests.SubmitOrderTest.sumbitOrder" duration-ms="1899" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Ahmed.28, email=m.mido2008@yahoo.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at EcommeraceFrameworks.Tests.SubmitOrderTest.orderhistoryTest(SubmitOrderTest.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistoryTest -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:EcommeraceFrameworks.Tests.SubmitOrderTest@40db2a24]" started-at="2023-09-28T00:04:35 EEST" name="closeApp" finished-at="2023-09-28T00:04:35 EEST" duration-ms="221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:EcommeraceFrameworks.Tests.SubmitOrderTest@40db2a24]" started-at="2023-09-28T00:04:35 EEST" name="launchApp" finished-at="2023-09-28T00:04:41 EEST" duration-ms="5649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="orderhistoryTest(java.util.HashMap)[pri:0, instance:EcommeraceFrameworks.Tests.SubmitOrderTest@40db2a24]" started-at="2023-09-28T00:04:41 EEST" name="orderhistoryTest" data-provider="getData" finished-at="2023-09-28T00:04:43 EEST" depends-on-methods="EcommeraceFrameworks.Tests.SubmitOrderTest.sumbitOrder" duration-ms="2206" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Ahmed.28, email=m.mido2008@yahoo.com, productName=ZARA COAT 3}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at EcommeraceFrameworks.Tests.SubmitOrderTest.orderhistoryTest(SubmitOrderTest.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.retryFailed(TestInvoker.java:248)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:62)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistoryTest -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:EcommeraceFrameworks.Tests.SubmitOrderTest@40db2a24]" started-at="2023-09-28T00:04:43 EEST" name="closeApp" finished-at="2023-09-28T00:04:43 EEST" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- EcommeraceFrameworks.Tests.SubmitOrderTest -->
+    </test> <!-- submitOrder -->
+    <test started-at="2023-09-28T00:04:44 EEST" name="errorValidation" finished-at="2023-09-28T00:05:03 EEST" duration-ms="19021">
+      <class name="EcommeraceFrameworks.Tests.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:EcommeraceFrameworks.Tests.ErrorValidationTest@77258e59]" started-at="2023-09-28T00:04:44 EEST" name="launchApp" finished-at="2023-09-28T00:04:49 EEST" duration-ms="5174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="logINErrorValidation()[pri:0, instance:EcommeraceFrameworks.Tests.ErrorValidationTest@77258e59]" started-at="2023-09-28T00:04:49 EEST" name="logINErrorValidation" finished-at="2023-09-28T00:04:51 EEST" duration-ms="1427" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Incorrect email  password.] but found [Incorrect email or password.]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Incorrect email  password.] but found [Incorrect email or password.]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at EcommeraceFrameworks.Tests.ErrorValidationTest.logINErrorValidation(ErrorValidationTest.java:20)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logINErrorValidation -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:EcommeraceFrameworks.Tests.ErrorValidationTest@77258e59]" started-at="2023-09-28T00:04:52 EEST" name="closeApp" finished-at="2023-09-28T00:04:52 EEST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:EcommeraceFrameworks.Tests.ErrorValidationTest@77258e59]" started-at="2023-09-28T00:04:52 EEST" name="launchApp" finished-at="2023-09-28T00:04:57 EEST" duration-ms="5039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method signature="orderErrorValidation()[pri:0, instance:EcommeraceFrameworks.Tests.ErrorValidationTest@77258e59]" started-at="2023-09-28T00:04:57 EEST" name="orderErrorValidation" finished-at="2023-09-28T00:05:03 EEST" duration-ms="5744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderErrorValidation -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:EcommeraceFrameworks.Tests.ErrorValidationTest@77258e59]" started-at="2023-09-28T00:05:03 EEST" name="closeApp" finished-at="2023-09-28T00:05:03 EEST" duration-ms="195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- EcommeraceFrameworks.Tests.ErrorValidationTest -->
+    </test> <!-- errorValidation -->
+  </suite> <!-- Suite -->
+</testng-results>
